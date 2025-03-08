@@ -29,7 +29,7 @@ Bedrock inherits AWS's robust security and compliance features, such as encrypti
 
 **Architecture:**
 
-![image](https://github.com/user-attachments/assets/9f1a9871-0342-45f5-a9b6-600d94bee7c7)
+![image](https://github.com/user-attachments/assets/e88ede68-10c2-4497-96cb-91a19ef13900)
 
 **Implementation:**
 
