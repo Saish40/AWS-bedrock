@@ -38,7 +38,7 @@ Step 11: Go to integration request and edit the mapping template
   - content type = application/json
   - templete body =
       {
-          "prompt" : "$input.params('prompt)"
+          "prompt" : "$input.params('prompt')"
       }
 
 Step 12: Deploy API to new stage
