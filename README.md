@@ -31,6 +31,12 @@ Bedrock inherits AWS's robust security and compliance features, such as encrypti
 
 ![image](https://github.com/user-attachments/assets/e88ede68-10c2-4497-96cb-91a19ef13900)
 
+User Interaction: The user initiates a request via an API call.
+Amazon API Gateway: Acts as the front-end interface, handling incoming API requests and forwarding them to AWS Lambda.
+AWS Lambda: A serverless function that processes the request, interacting with other AWS services as needed.
+AWS Bedrock: Lambda calls AWS Bedrock, which provides foundation models for AI/ML tasks such as text generation, summarization, or other AI-powered functionalities.
+Amazon S3 (Simple Storage Service): Lambda can also interact with S3 for storing or retrieving data, such as logs, processed outputs, or user inputs.
+
 **Implementation:**
 
 Step 1: Go to AWS management console and open AWS Bedrock service
