@@ -29,7 +29,7 @@ Bedrock inherits AWS's robust security and compliance features, such as encrypti
 
 **Architecture:**
 
-![image](https://github.com/user-attachments/assets/e88ede68-10c2-4497-96cb-91a19ef13900)
+![aws drawio](https://github.com/user-attachments/assets/5d971864-e7bb-4b87-855d-cfff5b251f2a)
 
   - User Interaction: The user initiates a request via an API call.
   - Amazon API Gateway: Acts as the front-end interface, handling incoming API requests and forwarding them to AWS Lambda.
