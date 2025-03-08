@@ -36,6 +36,7 @@ Bedrock inherits AWS's robust security and compliance features, such as encrypti
   - AWS Lambda: A serverless function that processes the request, interacting with other AWS services as needed.
   - AWS Bedrock: Lambda calls AWS Bedrock, which provides foundation models for AI/ML tasks such as text generation, summarization, or other AI-powered functionalities.
   - Amazon S3 (Simple Storage Service): Lambda can also interact with S3 for storing or retrieving data, such as logs, processed outputs, or user inputs.
+  - Response Back to API Gateway: After processing, Lambda returns the response to API Gateway, which forwards it to the user.
 
 **Implementation:**
 
