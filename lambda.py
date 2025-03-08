@@ -16,8 +16,8 @@ def lambda_handler(event, context):
                 "max_tokens" : 4000,
             }
         ),
-        contentType = 'application/json'
-        accept = 'application/json'
+        contentType = 'application/json',
+        accept = 'application/json',
         modelId = 'cohere.command-text-v14',
     )
     print(response['body'])
