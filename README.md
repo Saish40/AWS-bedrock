@@ -29,7 +29,7 @@ Bedrock inherits AWS's robust security and compliance features, such as encrypti
 
 **Architecture:**
 
-![aws drawio](https://github.com/user-attachments/assets/5d971864-e7bb-4b87-855d-cfff5b251f2a)
+![image](https://github.com/user-attachments/assets/343d3c51-7ceb-4b3d-86ab-5fb0af345020)
 
   - User Interaction: The user initiates a request via an API call.
   - Amazon API Gateway: Acts as the front-end interface, handling incoming API requests and forwarding them to AWS Lambda.
@@ -70,17 +70,17 @@ Step 10: Go to method request and edit "URL query string parameters" to add the 
   - name = prompt
   - Check the "required option"
 
-Step 10: Go to method request and enable request validation.
+Step 11: Go to method request and enable request validation.
   - request validator = "Validate query string parameters and headers"
 
-Step 11: Go to integration request and edit the mapping template
+Step 12: Go to integration request and edit the mapping template
   - content type = application/json
   - templete body =
       {
           "prompt" : "$input.params('prompt')"
       }
 
-Step 12: Deploy API to new stage
+Step 13: Deploy API to new stage
 
-Step 13: In API gateway service go to "resources", "GET" method and then test the API by providing prompt.
+Step 14: In API gateway service go to "resources", "GET" method and then test the API by providing prompt.
   Example: prompt=Please explain the components in Kubernetes  architecture
