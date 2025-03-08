@@ -1,4 +1,4 @@
-# AWS-bedrock
+# AWS-Bedrock
 
 AWS Bedrock is a fully managed service by Amazon Web Services (AWS) that makes it easy for developers to build and scale generative AI applications. It provides access to a variety of powerful large language models (LLMs) from leading AI companies, such as Anthropic, Stability AI, Mistral, and Amazon's own models. Bedrock allows users to leverage these models without having to manage the underlying infrastructure or model training themselves.
 
