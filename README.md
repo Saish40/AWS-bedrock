@@ -2,9 +2,9 @@
 
 AWS Bedrock is a fully managed service by Amazon Web Services (AWS) that makes it easy for developers to build and scale generative AI applications. It provides access to a variety of powerful large language models (LLMs) from leading AI companies, such as Anthropic, Stability AI, Mistral, and Amazon's own models. Bedrock allows users to leverage these models without having to manage the underlying infrastructure or model training themselves.
 
-Key Features:
-1. Access to Multiple LLMs:
+**Key Features:**
 
+1. Access to Multiple LLMs:
 AWS Bedrock provides access to a variety of pre-trained models from different vendors, including those built by Amazon (e.g., Titan models), as well as other companies like Anthropic (e.g., Claude), Stability AI, and Mistral. This allows users to select the best model for their needs (e.g., for natural language processing tasks like text generation, summarization, translation, etc.).
 
 2. Fully Managed Service:
@@ -19,18 +19,19 @@ Bedrock integrates seamlessly with other AWS services like Amazon S3, AWS Lambda
 5. Security and Compliance:
 Bedrock inherits AWS's robust security and compliance features, such as encryption, identity management with AWS IAM, and more. This makes it suitable for applications that require high levels of data privacy and regulatory compliance.
 
-Use Cases:
+**Use Cases:**
   - Conversational AI: Build intelligent chatbots and virtual assistants that can carry on natural, human-like conversations.
   - Content Generation: Use LLMs for tasks like text generation, summarization, content creation, etc.
   - Customer Support: Automate responses to customer inquiries or generate recommendations.
   - Data Extraction and Analysis: Use models to analyze text, extract insights, and summarize information.
 
---------------------------------------------------------------------------------------------------Integrating AWS Bedrock with lambda and API gateway--------------------------------------------------------------------------------------------------------------------------
+**Integrating AWS Bedrock with lambda and API gateway**
 
-Architecture:
+**Architecture:**
 
+![image](https://github.com/user-attachments/assets/9f1a9871-0342-45f5-a9b6-600d94bee7c7)
 
-Implementation:
+**Implementation:**
 
 Step 1: Go to AWS management console and open AWS Bedrock service
 
