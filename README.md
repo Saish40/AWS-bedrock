@@ -23,7 +23,6 @@ Bedrock inherits AWS's robust security and compliance features, such as encrypti
   - Conversational AI: Build intelligent chatbots and virtual assistants that can carry on natural, human-like conversations.
   - Content Generation: Use LLMs for tasks like text generation, summarization, content creation, etc.
   - Customer Support: Automate responses to customer inquiries or generate recommendations.
-  - Data Extraction and Analysis: Use models to analyze text, extract insights, and summarize information.
 
 **Integrating AWS Bedrock with lambda and API gateway**
 
@@ -60,7 +59,7 @@ Step 7: Open API gateway service and create an API.
 
 Step 8: Create a resource
   - resource path = /
-  - resource name = chaatbot
+  - resource name = chatbot
 
 Step 9: Create a method
   - method type = "GET"
